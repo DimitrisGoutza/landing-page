@@ -110,3 +110,30 @@ a {
     border: solid 3px #3882F6;
     border-radius: 10px;
 }
+/* QUOTE */
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+} 
+.quotecontainer {          /* added another container because if I use the top one then the background-color will take the max-width value too and I don't want that */
+    max-width: 67em;
+    display: flex;         /* also I had to make this a flex container in order to align .author with align-self: flex-end; */
+    flex-direction: column;
+}
+.paragraph {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #1F2937
+}
+.author {
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    font-weight: bold;
+    align-self: flex-end;
+}
