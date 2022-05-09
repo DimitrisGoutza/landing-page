@@ -139,7 +139,7 @@ a {
     align-self: flex-end;
     font-size: 20px;
 }
-/* SignUp */
+/* SIGNUP */
 .signup {
     display: flex;
     justify-content: center;
@@ -173,4 +173,13 @@ a {
 .signuplink2 {
     padding: 7px 27px;
     flex-shrink: 0;
+}
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
 }
