@@ -14,7 +14,7 @@ body {
     margin: 0;
     gap: 80px;
 }
-/* TOP */
+/* TOP HEADER*/
 .topheader {
     display: flex;
     flex: 1;
@@ -40,7 +40,7 @@ a {
     text-decoration: none;
     padding: 20px 0;
 }
-/* BOTTOM */
+/* BOTTOM HEADER */
 .bottomheader {
     flex: 1;
     display: flex;
@@ -118,7 +118,7 @@ a {
     justify-content: center;
 } 
 .quotecontainer {          /* added another container because if I use the top one then the background-color will take the max-width value too and I don't want that */
-    max-width: 67em;
+    max-width: 51em;
     display: flex;         /* also I had to make this a flex container in order to align .author with align-self: flex-end; */
     flex-direction: column;
 }
@@ -136,4 +136,5 @@ a {
     align-self: flex-end;
     font-weight: bold;
     align-self: flex-end;
+    font-size: 20px;
 }
